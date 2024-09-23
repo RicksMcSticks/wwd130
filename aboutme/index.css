@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.my-mom{
+    width: 200px;
+    height: 400px;
+}
+footer{
+    background-color: gray;
+    /* height: 50px; */
+}
+header{
+    background-color: gray;
+    height: 50px;
+}
