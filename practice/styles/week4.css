@@ -1,0 +1,39 @@
+body{
+margin: 0 auto;
+text-align: center;
+}
+main{
+    background-color: lightblue;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* img{
+    width: 50vw;
+
+} */
+
+p{
+    color: gray;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#green{
+    background-color: hotpink;
+}
+
+.picture{
+    height: 200px;
+    width: 300px;
+}
+
+footer p{
+    color: blue;
+}
+
+a:hover{
+    background-color: chartreuse;
+   transform:rotate(360deg);transition-duration: 2000ms;
+}
