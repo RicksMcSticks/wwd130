@@ -1,8 +1,138 @@
-#content{
-    max-width: 1600px;
-    margin: 0 auto;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap");
+
+/* font-family{
+  --heading-font: "Rock Salt";
+  --paragraph-font: Roboto, Helvetica, sans-serif;
+
+} */
+
+.home-title {
+  font-size: 2em;
+  font-family: Roboto, Helvetica, sans-serif;
+  margin-top: 10px;
 }
 
-#background{
-    height: 725px;
+main section {
+  text-align: center;
+}
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+#background {
+  height: 725px;
+}
+
+.social img{
+  padding-top: 15px;
+}
+
+#logo_link{
+  padding-top: 5px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
+
+#hero-img {
+  width: 100%;
+}
+footer {
+  background-color: #2adc7a;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer a {
+  text-decoration: none;
+  color: #5c57bc;
+}
+footer a:hover {
+  color: #0e026b;
+}
+
+nav a {
+  text-decoration: none;
+  color: #03011c;
+  padding: 35px;
+  text-align: center;
+}
+
+.join {
+  text-decoration: none;
+  color: #554fbc;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.river-card{
+  margin: 200px 0;
+}
+
+.camping-card{
+  margin: 200px 0;
+}
+
+.rapids-card{
+  margin: 200px 0;
+}
+
+.msg {
+  background-color: #2adc7a;
+  line-height: 1.5em;
+}
+
+.card-img{
+  border: 10px solid black;
+}
+
+main section img {
+  box-sizing: border-box;
+}
+
+.msg p {
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+
+.book {
+  text-decoration: none;
+  color: #271fc5;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.book:hover {
+  color: #271fc5;
+}
+.join:hover {
+  color: #03011c;
+}
+
+body {
+  background-color: #2767a7;
+  font-family: Roboto, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin: 0;
+}
+header {
+  background-color: rgba(20, 30, 13, 0.7);
+}
+nav a:hover {
+  background-color: black;
 }
