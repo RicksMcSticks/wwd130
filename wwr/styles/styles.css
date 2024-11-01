@@ -31,6 +31,8 @@ main section {
 
 #logo_link{
   padding-top: 5px;
+  justify-self: center;
+  align-self: center;
 }
 
 .logo {
@@ -131,8 +133,14 @@ h2 {
   margin: 0;
 }
 header {
+  display: grid;
   background-color: rgba(20, 30, 13, 0.7);
 }
 nav a:hover {
   background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
 }
