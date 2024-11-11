@@ -1,0 +1,48 @@
+.blog-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: steelblue;
+    text-align: center;
+    /* border: 1px rgb(12, 12, 12) solid; */
+    border-bottom: 10px;
+}
+/* img{
+    width: 400px;
+} */
+.blog-post {
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+    /* border-bottom: 10px; */
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+}
+
+/* .text {
+
+} */
+
+.yes {
+    color: navy;
+}
+
+.first {
+    border-top: 1px black solid;
+    border-right: 1px black solid;
+    color: white;
+}
+
+.second {
+    border-top: 1px black solid;
+    color: white;
+}
+
+.third {
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+    color: white;
+}
+body {
+    background-color: darkgray;
+}
