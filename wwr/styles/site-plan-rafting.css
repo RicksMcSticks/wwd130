@@ -16,13 +16,13 @@ Fonts are separated by a & */
   --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --headline-color-on-white: #a2b1bc;  /* headlines on a white background */ 
+  --headline-color-on-color: rgb(245, 245, 245); /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #363fc0;
-  --nav-background-color: #2adc7a;
+  --nav-background-color: #4ba574;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #4542ce;
 }
@@ -56,7 +56,7 @@ hr {
   background: var(--accent1-color);
 }
 header {
- background-color:#55beb2 ; 
+ background-color:#5ebfb2 ; 
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
@@ -77,7 +77,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: #919090;
 }
 .colors td{
   width: 25%;
@@ -120,7 +120,7 @@ nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
-  background-color: #2adc7a;
+  background-color: #3ac87a;
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
