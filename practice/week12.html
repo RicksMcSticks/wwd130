@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 12 Compenent Activity</title>
+    <link rel="stylesheet" href="styles/week12.css" />
+  </head>
+  <body>
+    <h1>The Dallas Cowboys</h1>
+    <button class="accordion">About the Dallas Cowboys</button>
+    <div class="panel">
+      <p>
+        The Dallas Cowboys are one of the most iconic franchises in professional
+        football, representing the city of Dallas, Texas, in the NFL. Founded in
+        1960, the team has built a legacy of success, earning the nickname
+        "America's Team" due to its widespread popularity. With five Super Bowl
+        championships and a record number of playoff appearances, the Cowboys
+        have established themselves as a cornerstone of the league's history.
+      </p>
+    </div>
+
+    <button class="accordion">Legendary Players and Moments</button>
+    <div class="panel">
+      <p>
+        Over the decades, the Cowboys have been home to some of the NFL's
+        greatest players, including legends like Roger Staubach, Emmitt Smith,
+        and Michael Irvin. Their championship-winning teams of the 1970s and
+        1990s are etched in football history. Memorable moments, such as "The
+        Catch" and their dominance in Super Bowl XXX, continue to inspire fans
+        and players alike.
+      </p>
+    </div>
+
+    <button class="accordion">The Cowboys Today</button>
+    <div class="panel">
+      <p>
+        The Cowboys play their home games at the state-of-the-art AT&T Stadium
+        in Arlington, Texas. Known for its cutting-edge technology and massive
+        video board, the stadium enhances the fan experience. Today, under the
+        leadership of head coach Mike McCarthy, the Cowboys are striving to add
+        to their storied legacy. With a passionate fan base and a talented
+        roster, the team's future looks as bright as its celebrated past.
+      </p>
+    </div>
+    <script>
+ var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+    </script>
+  </body>
+</html>

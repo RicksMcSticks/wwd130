@@ -173,3 +173,11 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+footer{
+  background-color: #710627 ;
+}
+
+*{
+  border: 1px rgb(12, 12, 12) solid;
+}
