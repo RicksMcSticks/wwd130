@@ -223,3 +223,22 @@ grid-row: 4/5;
 
 
 
+/* hobbies */
+
+.swing{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.swing-pic{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.surfing{
+  grid-column: 2/3;
+}
+.surfing-pic{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
