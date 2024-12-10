@@ -160,6 +160,10 @@ nav a:hover {
   line-height: 3em;
 }
 
+.foot{
+  color: white;
+}
+
 .top {
   grid-area: top;
   border-left: 1px solid;
