@@ -67,7 +67,7 @@ header > h1, header > h2 {
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
-  padding: 1em;
+  /* padding: 1em; */
 }
 .colors {
   width: 100%;
@@ -163,6 +163,7 @@ nav a:hover {
 
 .foot{
   color: white;
+  background-color: #060606;
 }
 
 .top {
@@ -184,6 +185,12 @@ nav a:hover {
 
 footer{
   background-color: #710627 ;
+  color: white;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  display: flex;
+
 }
 
 .logo{
